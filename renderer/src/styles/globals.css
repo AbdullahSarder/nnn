@@ -1,0 +1,156 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* Navbar */
+ul {
+	margin-block-start: 5em;
+	margin-left: 100px;
+}
+.navbar {
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	text-align: start;
+	background-color: #f6f6f6;
+	padding-top: 30px;
+	top: 0;
+}
+.openbtn {
+	display: none;
+}
+.logo {
+	width: 150px;
+	margin-left: 80px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.toogleicon {
+	margin-left: 210px;
+}
+.icons {
+	width: 20px;
+	margin-right: 10px;
+}
+
+.side-nav-list ul {
+	margin: 0 !important;
+}
+.side-nav-list a {
+	list-style: none;
+	padding: 20px 5px 20px 50px;
+	/* background-color: aqua; */
+	display: flex;
+}
+.active {
+	background-color: #007fff;
+	color: white;
+}
+.side-nav-list a img {
+	width: 20px;
+	margin-right: 20px;
+}
+
+/* Edetior */
+.Edetior {
+	text-align: start;
+	margin-right: 72px;
+	/* border: 1px solid red; */
+}
+.Edetior1 {
+	/* text-align: start;
+	margin-right: 72px; */
+	border: 1px solid #eee;
+}
+.editor_top {
+	display: flex;
+	justify-content: space-between;
+	background-color: #eee;
+}
+button {
+	cursor: pointer;
+	border: none;
+}
+.editor_top button {
+	background-color: white;
+	color: #647a83;
+}
+
+.edetior-top-button {
+	display: flex;
+	gap: 20px;
+}
+.edetior-top-button .run button {
+	background-color: #007fff;
+	padding: 9px 27px;
+	color: white;
+}
+.css-15wmqzy-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+	color: #007fff;
+}
+/* Editor Interfrace */
+.EditorInterfrace {
+	/* background-color: rgb(118, 23, 109); */
+	height: 100%;
+	margin-left: 300px;
+	display: flex;
+	/* justify-content: space-between; */
+	gap: 20px;
+	/* background-color: #007fff; */
+	text-align: start;
+}
+.instruction {
+	/* margin-left: 260px; */
+}
+.instructionTitle {
+	background-color: #f5f5f5;
+	padding: 5px 15px;
+	margin-top: 0;
+}
+
+code {
+	background-color: var(--quaternary-background);
+	color: var(--tertiary-color);
+	font-family: Roboto Mono, monospace;
+	overflow-wrap: anywhere;
+}
+code {
+	background-color: var(--quaternary-background);
+	color: var(--tertiary-color);
+	font-family: Roboto Mono, monospace;
+	overflow-wrap: anywhere;
+}
+
+pre {
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+		DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	margin-bottom: 10px;
+	overflow: auto;
+	width: auto;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #d9ecff;
+	width: 650px!ie7;
+	padding-bottom: 20px!ie7;
+	max-height: 600px;
+}
+/* Feedback */
+.total_problem {
+	background-color: #b2bdc1;
+	color: white;
+	padding: 3px 11px;
+	border-radius: 20px;
+	font-size: 9px;
+}
